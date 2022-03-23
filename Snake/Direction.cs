@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Snake
 {
-	enum Direction
+	enum Direction //направление змейки
 	{
-		LEFT,
-		RIGHT,
-		UP,
-		DOWN
+		LEFT, //влево
+		RIGHT, //вправо
+		UP, //вверх
+		DOWN //вниз
 	}
 }
