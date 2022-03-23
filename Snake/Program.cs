@@ -40,7 +40,7 @@ namespace Snake
 					snake.Move();
 				}
 
-				//Thread.Sleep(100); не работает
+				//Thread.Sleep(100); 
 				if (Console.KeyAvailable)
 				{
 					ConsoleKeyInfo key = Console.ReadKey();

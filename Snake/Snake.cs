@@ -67,7 +67,7 @@ namespace Snake
 		public bool Eat(Point food) //функция, в случае если змейка касается "еды"
 		{
 			Point head = GetNextPoint();
-			if (head.IsHit(food)) //если она 
+			if (head.IsHit(food)) //если она касается головой еды 
 			{
 				food.sym = head.sym;
 				pList.Add(food);
